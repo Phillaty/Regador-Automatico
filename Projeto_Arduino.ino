@@ -179,7 +179,6 @@ void loop() {
 }
 
 void Regando() {
-  Serial.println("aaaaaaaaaaaaaaaaa");
   digitalWrite(bomba, LOW);
   lcd.print("Regando...");
   lcd.setCursor(0, 1);
